@@ -11,12 +11,21 @@ I enjoy connecting hardware and firmware: designing circuit boards, integrating 
 
 | Project | Engineering focus | My involvement |
 |---|---|---|
-| [Dual-Mode F1 RC Car](https://github.com/Zarraf16/Autonomous-Car) | Six-sensor PID line following, Pixy2 traffic-light detection, servo/ESC control, and a custom PCB | PCB design in EasyEDA within a multidisciplinary club team |
+| [Dual-Mode F1 RC Car](https://github.com/Zarraf16/Autonomous-Car) | Six-sensor PID line following, Pixy2 traffic-light detection, servo/ESC control, and custom PCB | PCB design in EasyEDA within a multidisciplinary club team |
 | [Smart Water Filtration](https://github.com/Zarraf16/Water-Filter-Sensor-Module) | Four-channel sensing, modular Arduino C++, TFT display, and hydraulic/electrical integration | Shared team work across schematics, code, assembly, and troubleshooting |
 
-**Project reports:** [F1 RC car](https://github.com/Zarraf16/Autonomous-Car/blob/main/F1_RC_Car_Engineering_Report.pdf) · [Water filtration](https://github.com/Zarraf16/Water-Filter-Sensor-Module/blob/main/Smart_Water_Filtration_Engineering_Report.pdf)
+## Individual projects
 
-Each repository includes technical documentation and preserves the original team code history and attribution.
+| Project | Documentation |
+|---|---|
+| Arduino LED Shield PCB | [Course project report](https://github.com/Zarraf16/Zarraf16/blob/main/Arduino_LED_Shield_PCB_Report.pdf) |
+| LM386 Audio Amplifier | [Project report](https://github.com/Zarraf16/Zarraf16/blob/main/LM386_Audio_Amplifier_Report.pdf) |
+| IC-Based Line-Follower Robot | No report |
+| Automatic Plant-Watering System | No report |
+
+**Team project reports:** [F1 RC car](https://github.com/Zarraf16/Autonomous-Car/blob/main/F1_RC_Car_Engineering_Report.pdf) · [Water filtration](https://github.com/Zarraf16/Water-Filter-Sensor-Module/blob/main/Smart_Water_Filtration_Engineering_Report.pdf)
+
+The team repositories preserve the original code history and attribution. Reports are linked only for projects with reports.
 
 ## Technical toolkit
 

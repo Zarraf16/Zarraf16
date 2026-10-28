@@ -18,10 +18,10 @@ I enjoy connecting hardware and firmware: designing circuit boards, integrating 
 
 | Project | Documentation |
 |---|---|
-| Arduino LED Shield PCB | [Course project report](https://github.com/Zarraf16/Zarraf16/blob/main/Arduino_LED_Shield_PCB_Report.pdf) |
-| LM386 Audio Amplifier | [Project report](https://github.com/Zarraf16/Zarraf16/blob/main/LM386_Audio_Amplifier_Report.pdf) |
-| IC-Based Line-Follower Robot | No report |
-| Automatic Plant-Watering System | No report |
+| [Arduino LED Shield PCB](https://github.com/Zarraf16/Arduino-LED-Shield-PCB) | Schematic, PCB layout, 3D previews, and [report](https://github.com/Zarraf16/Arduino-LED-Shield-PCB/blob/main/Arduino_LED_Shield_PCB_Report.pdf) |
+| [LM386 Audio Amplifier](https://github.com/Zarraf16/Lm386-Audio-amplifier) | Project README and [report](https://github.com/Zarraf16/Lm386-Audio-amplifier/blob/main/LM386%20audio%20amplifier.pdf) |
+| [IC-Based Line-Follower Robot](https://github.com/Zarraf16/IC-Based-Line-Follower) | Project overview: IR sensing and logic-IC motor control |
+| [Automatic Plant-Watering System](https://github.com/Zarraf16/Automatic-Plant-Watering-System) | Project overview: Arduino, soil-moisture sensing, and relay-controlled pump |
 
 **Team project reports:** [F1 RC car](https://github.com/Zarraf16/Autonomous-Car/blob/main/F1_RC_Car_Engineering_Report.pdf) · [Water filtration](https://github.com/Zarraf16/Water-Filter-Sensor-Module/blob/main/Smart_Water_Filtration_Engineering_Report.pdf)
 

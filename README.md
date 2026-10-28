@@ -29,10 +29,11 @@ The team repositories preserve the original code history and attribution. Report
 
 ## Technical toolkit
 
-- **Programming:** C, Arduino C++, Python
-- **Embedded hardware:** Arduino Uno/Nano, sensor interfaces, servo and ESC integration
-- **Electronics:** PCB schematics and layout, EasyEDA, soldering, circuit analysis, LTspice
-- **Engineering tools:** Git, GCC/Make, MATLAB, SolidWorks/Fusion 360
+- **Programming & Development:**  C, Python, MATLAB, Bash, Git/GitHub, GCC/Make, GDB
+- **Electronics & PCB:** PCB design and schematic capture, SMT/THT soldering, board bring-up and circuit debugging, oscilloscopes, bench power
+supplies
+- **Embedded Systems:**  Microcontroller (AVR/ARM), sensor integration, hardware protocols (UART, SPI, I²C), motor drivers
+- **CAD & Tools:** EasyEDA, SolidWorks, LTspice, Arduino IDE, VS Code, Microsoft Office
 
 ## What I’m developing next
 

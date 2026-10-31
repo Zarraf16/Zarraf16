@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="425" viewBox="0 0 1200 425" role="img" aria-labelledby="title desc">
+<title id="title">Engineering project results</title>
+<desc id="desc">Animated project dashboard showing video-timed RC car speeds with uncertainty, custom PCB dimensions and trace width, audio amplifier frequency response, and water-quality sensing and pump integration.</desc>
+<defs>
+  <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09151d"/><stop offset="1" stop-color="#13292d"/></linearGradient>
+  <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a7f06b"/><stop offset="1" stop-color="#3bd0b3"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="425" rx="22" fill="url(#back)"/>
+<text x="42" y="46" fill="#a7f06b" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">SELECTED BUILDS  /  MEASURED &amp; DOCUMENTED</text>
+<text x="42" y="75" fill="#eaf2ed" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700">Engineering that connects sensing, control and hardware.</text>
+<!-- card 1 car -->
+<g transform="translate(32 96)">
+<rect width="555" height="292" rx="18" fill="#0f2028" stroke="#31545a"/>
+<rect x="0" y="0" width="5" height="292" rx="3" fill="url(#lime)"/>
+<text x="27" y="36" fill="#a7f06b" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2">01 / DUAL-MODE F1 RC CAR</text>
+<text x="27" y="68" fill="#f1f5ef" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Video-timed estimates · 2.65 m interval</text>
+<path d="M34 110h475" stroke="#37545a" stroke-width="3" stroke-dasharray="8 12"><animate attributeName="stroke-dashoffset" values="0;-80" dur="4s" repeatCount="indefinite"/></path>
+<g font-family="Arial,Helvetica,sans-serif">
+  <text x="34" y="146" fill="#9db8b0" font-size="12" font-weight="700">2015 MODEL</text>
+  <text x="34" y="181" fill="#eef5ef" font-size="27" font-weight="800">19.8 mph</text>
+  <text x="284" y="146" fill="#9db8b0" font-size="12" font-weight="700">2023 MODEL</text>
+  <text x="284" y="181" fill="#eef5ef" font-size="27" font-weight="800">22.2 mph</text>
+  <text x="34" y="220" fill="#a7f06b" font-size="12" font-weight="700">6 IR SENSORS  ·  PID LINE FOLLOWING  ·  PIXY2 TRAFFIC-LIGHT DETECTION</text>
+  <text x="34" y="252" fill="#8ca69f" font-size="11">Timing estimate; reported with 10% uncertainty allowance.</text>
+</g>
+<g transform="translate(487 63)" fill="#f2a34c" filter="url(#soft)">
+ <circle r="6"><animate attributeName="r" values="4;8;4" dur="2s" repeatCount="indefinite"/></circle>
+</g>
+</g>
+<!-- card 2 PCB -->
+<g transform="translate(607 96)">
+<rect width="260" height="292" rx="18" fill="#0f2028" stroke="#31545a"/>
+<rect x="0" y="0" width="5" height="292" rx="3" fill="#4bd0b5"/>
+<text x="24" y="36" fill="#a7f06b" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2">02 / CUSTOM PCB</text>
+<rect x="67" y="75" width="126" height="84" rx="9" fill="#185a4e" stroke="#76e1bd" stroke-width="2"/>
+<g fill="none" stroke="#b7f27c" stroke-width="2" opacity=".9">
+ <path d="M78 88h31v16h22v-9h47"/><path d="M80 139h25v-15h24v18h48"/><path d="M154 82v17h22v18"/>
+ <animate attributeName="opacity" values=".35;1;.35" dur="2.4s" repeatCount="indefinite"/>
+</g>
+<g fill="#0b2928" stroke="#d3f5a5" stroke-width="2"><circle cx="79" cy="88" r="4"/><circle cx="178" cy="95" r="4"/><circle cx="81" cy="139" r="4"/><circle cx="179" cy="142" r="4"/></g>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+ <text x="130" y="194" fill="#eff5ef" font-size="18" font-weight="800">2-LAYER FR-4</text>
+ <text x="130" y="220" fill="#a7f06b" font-size="14" font-weight="700">35 mil power traces</text>
+ <text x="130" y="245" fill="#9db8b0" font-size="12">44.58 × 23.62 mm</text>
+ <text x="130" y="269" fill="#839d97" font-size="10">EasyEDA · GND stitching vias</text>
+</g>
+</g>
+<!-- card 3 amplifier and water systems -->
+<g transform="translate(887 96)">
+<rect width="281" height="292" rx="18" fill="#0f2028" stroke="#31545a"/>
+<rect x="0" y="0" width="5" height="292" rx="3" fill="#f0a24b"/>
+<text x="23" y="36" fill="#ffbd70" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2">03 / SYSTEM BUILDS</text>
+<text x="24" y="72" fill="#eff5ef" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">LM386 amplifier</text>
+<path d="M24 111 C45 111 48 88 63 88 S82 133 98 133 112 98 127 98 145 119 158 119 173 103 188 103 205 126 220 126 238 111 257 111" fill="none" stroke="#a7f06b" stroke-width="3">
+ <animate attributeName="stroke-dasharray" values="4 4;11 5;4 4" dur="3s" repeatCount="indefinite"/>
+</path>
+<text x="24" y="153" fill="#9db8b0" font-family="Arial,Helvetica,sans-serif" font-size="11">Measured response: 100 Hz–15 kHz</text>
+<path d="M23 175h235" stroke="#31545a"/>
+<text x="24" y="207" fill="#eff5ef" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">Water filtration controls</text>
+<g transform="translate(40 232)">
+ <path d="M20 0C20 0 4 20 4 30a16 16 0 0 0 32 0C36 20 20 0 20 0Z" fill="#3acdb4" opacity=".85">
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 5;0 0" dur="2.4s" repeatCount="indefinite"/>
+ </path>
+</g>
+<text x="91" y="245" fill="#b9d2ca" font-family="Arial,Helvetica,sans-serif" font-size="11">Water-quality sensing</text>
+<text x="91" y="266" fill="#b9d2ca" font-family="Arial,Helvetica,sans-serif" font-size="11">+ automatic pump control</text>
+</g>
+<text x="39" y="410" fill="#7e9992" font-family="Arial,Helvetica,sans-serif" font-size="10" letter-spacing="1.2">TEAM BUILDS ARE LABELED AS COLLABORATIONS  ·  VIDEO SPEED VALUES ARE ESTIMATES</text>
+</svg>

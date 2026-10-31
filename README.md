@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Zarraf16/Zarraf16/main/assets/flightdeck.svg" width="100%" alt="Zarraf Alam Fahmid — animated engineering flight deck"/>
+<img src="https://raw.githubusercontent.com/Zarraf16/Zarraf16/837772c262f1ed756658ff8a157dd95027ff31d4/assets/flightdeck.svg" width="100%" alt="Zarraf Alam Fahmid — ivory and red motorsport banner"/>
 
 **COMPUTER ENGINEERING @ KETTERING UNIVERSITY**
 

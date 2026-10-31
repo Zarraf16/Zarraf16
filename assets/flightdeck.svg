@@ -1,21 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090c18"/><stop offset="1" stop-color="#192039"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern></defs><rect width="1200" height="440" rx="22" fill="url(#bg)"/><rect width="1200" height="440" rx="22" fill="url(#grid)"/><g font-family="Arial,Helvetica,sans-serif">
-<path d="M0 0H1200" stroke="#ff683e" stroke-width="9"/>
-<text x="48" y="53" fill="#ff825e" font-size="15" font-weight="700">ZF  /  ENGINEERING FLIGHT DECK</text>
-<text x="48" y="133" fill="#f4f5fa" font-size="64" font-weight="800">ZARRAF ALAM</text>
-<text x="48" y="200" fill="#f4f5fa" font-size="64" font-weight="800">FAHMID</text>
-<text x="51" y="249" fill="#92a8c4" font-size="16" font-weight="700">COMPUTER ENGINEERING  /  KETTERING UNIVERSITY</text>
-<text x="51" y="289" fill="#d5e2f6" font-size="24" font-weight="400">From circuit traces to closed-loop control.</text>
-<text x="51" y="386" fill="#6be8e2" font-size="14" font-weight="700">EMBEDDED SYSTEMS     •     PCB DESIGN     •     AUTOMOTIVE ELECTRONICS</text>
-<g transform="translate(920 192)">
-<circle r="139" fill="#101829" stroke="#31425f" stroke-width="2"/>
-<circle r="125" fill="none" stroke="#ff683e" stroke-width="4" stroke-dasharray="250 535" transform="rotate(-90)"><animateTransform attributeName="transform" type="rotate" from="-90" to="270" dur="18s" repeatCount="indefinite"/></circle>
-<circle r="100" fill="none" stroke="#6be8e2" stroke-width="2" stroke-dasharray="5 13"/>
-<g transform="rotate(-25)"><animateTransform attributeName="transform" type="rotate" values="-25;25;-25" dur="8s" repeatCount="indefinite"/>
-<rect x="-48" y="-56" width="96" height="112" rx="12" fill="#1d3d45" stroke="#6be8e2" stroke-width="2"/>
-<path d="M-66 -40h18M48 -40h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 -24h18M48 -24h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 -8h18M48 -8h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 8h18M48 8h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 24h18M48 24h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 40h18M48 40h18" stroke="#a9c1ce" stroke-width="5"/>
-<rect x="-29" y="-28" width="58" height="56" rx="5" fill="#0c1526" stroke="#ff825e"/>
-<text x="-21" y="5" fill="#ff825e" font-size="20" font-weight="700">AVR</text>
-<circle cx="31" cy="-42" r="4" fill="#6be8e2"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<title id="title">Zarraf Alam Fahmid — engineering in motion</title>
+<desc id="desc">Ivory and vermilion motorsport-inspired banner with large typography, an original top-view race-car illustration, and animated track markings.</desc>
+<defs>
+<linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f14432"/><stop offset="1" stop-color="#ae1e22"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ddd9cc"/><stop offset=".5" stop-color="#fffdf1"/><stop offset="1" stop-color="#c3c0b5"/></linearGradient>
+<pattern id="checker" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#f3f0e7"/><path d="M0 0h12v12H0zM12 12h12v12H12z" fill="#202222"/></pattern>
+<clipPath id="clip"><rect width="1200" height="500" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1200" height="500" fill="#f3f0e7"/>
+<path d="M810 0H1200V500H675Z" fill="url(#red)"/>
+<path d="M1063 -80L802 580" stroke="#ff8571" stroke-opacity=".45" stroke-width="2"/>
+<path d="M1180 -80L920 580" stroke="#ff8571" stroke-opacity=".45" stroke-width="2"/>
+<path d="M1119 -80L859 580" stroke="#ffe1cb" stroke-opacity=".65" stroke-width="3" stroke-dasharray="22 30"><animate attributeName="stroke-dashoffset" from="0" to="104" dur="2s" repeatCount="indefinite"/></path>
+<g fill="none" stroke="#e4ded1" stroke-width="1">
+<path d="M33 0V450M665 0V450M0 104H757M0 370H710"/>
 </g>
-<text x="794" y="367" fill="#6be8e2" font-size="16" font-weight="700">SENSE  →  COMPUTE  →  ACT</text>
-<path d="M49 325H650" stroke="#2e3b53"/><path d="M49 325H180" stroke="#ff683e" stroke-width="3"><animate attributeName="d" values="M49 325H180;M510 325H650;M49 325H180" dur="5s" repeatCount="indefinite"/></path></g></svg>
+<g font-family="DejaVu Sans,Arial,sans-serif">
+<rect x="37" y="33" width="35" height="35" fill="#202222"/>
+<text x="42" y="57" font-size="18" font-weight="700" fill="#fff9ec">ZF</text>
+<text x="88" y="48" font-size="12" font-weight="700" letter-spacing="2" fill="#202222">HARDWARE / FIRMWARE / MOTION</text>
+<text x="88" y="69" font-size="12" fill="#66665f">COMPUTER ENGINEERING · KETTERING UNIVERSITY</text>
+<text x="33" y="192" font-size="83" font-weight="700" letter-spacing="-4" fill="#202222">ZARRAF</text>
+<text x="37" y="258" font-size="56" font-weight="700" letter-spacing="-2" fill="#202222">ALAM FAHMID</text>
+<rect x="40" y="286" width="50" height="5" fill="#e53a2d"/>
+<text x="40" y="331" font-size="23" fill="#3b3d39">Building the hardware.</text>
+<text x="40" y="359" font-size="23" fill="#3b3d39">Writing the logic. Connecting both.</text>
+<text x="40" y="406" font-size="13" font-weight="700" letter-spacing="1" fill="#202222">EMBEDDED SYSTEMS  /  PCB DESIGN</text>
+<text x="40" y="429" font-size="13" font-weight="700" letter-spacing="1" fill="#202222">AUTOMOTIVE ELECTRONICS</text>
+<text x="1159" y="42" text-anchor="end" font-size="12" letter-spacing="2" fill="#ffe9d8">ENGINEERING IN MOTION</text>
+<text x="1158" y="429" text-anchor="end" font-size="12" fill="#ffe9d8">SENSE → COMPUTE → ACT</text>
+</g>
+<!-- Original stylized top-view F1-style car -->
+<g transform="translate(940 240) rotate(22)">
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="4s" repeatCount="indefinite"/>
+<ellipse cx="8" cy="18" rx="100" ry="163" fill="#610e17" opacity=".25"/>
+<!-- suspension and tires -->
+<g fill="#202225" stroke="#070d12" stroke-width="2">
+<rect x="-86" y="-90" width="36" height="67" rx="9"/><rect x="50" y="-90" width="36" height="67" rx="9"/>
+<rect x="-91" y="72" width="42" height="75" rx="10"/><rect x="49" y="72" width="42" height="75" rx="10"/>
+</g>
+<g stroke="#c2c0b5" stroke-width="4"><path d="M-63 -65L0 -28 63 -65M-63 -42L0 -28 63 -42M-66 95L0 58 66 95M-66 123L0 82 66 123"/></g>
+<!-- rear and front wings -->
+<rect x="-72" y="125" width="144" height="29" rx="5" fill="#f3efe3" stroke="#181e23" stroke-width="3"/>
+<path d="M-81 -131L-17 -139H17L81 -131V-110L19 -118H-19L-81 -110Z" fill="#f3efe3" stroke="#181e23" stroke-width="3"/>
+<!-- sculpted body -->
+<path d="M-13 -130H13L22 -55 46 12 39 81 22 118H-22L-39 81-46 12-22 -55Z" fill="url(#body)" stroke="#252d30" stroke-width="3"/>
+<path d="M-7 -123H7L11 -40H-11Z" fill="#e7352a"/>
+<path d="M-32 19L-19 70-26 95-35 75Z M32 19L19 70 26 95 35 75Z" fill="#c42d27"/>
+<!-- cockpit and halo -->
+<ellipse cy="-4" rx="18" ry="30" fill="#1b2730"/>
+<path d="M-21 -16Q0 -43 21 -16L13 18M-21 -16L-13 18" fill="none" stroke="#909b99" stroke-width="6"/>
+<ellipse cy="5" rx="10" ry="12" fill="#e7352a"/>
+<path d="M-16 41H16L22 101H-22Z" fill="#273b43"/>
+<text x="0" y="82" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" fill="#fff5df">ZF</text>
+<path d="M-62 137H62" stroke="#e7352a" stroke-width="5"/>
+</g></g>
+<rect y="464" width="1200" height="36" fill="#202222"/>
+<rect x="0" y="464" width="144" height="36" fill="url(#checker)"/>
+<text x="174" y="487" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" letter-spacing="2" fill="#f3efe3">CIRCUITS TO CONTROL SYSTEMS</text>
+<text x="1162" y="487" text-anchor="end" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" letter-spacing="1" fill="#f3efe3">MICHIGAN, USA</text>
+</g></svg>

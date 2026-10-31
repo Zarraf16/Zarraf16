@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#090c18"/><stop offset="1" stop-color="#192039"/></linearGradient><pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity=".04"/></pattern></defs><rect width="1200" height="440" rx="22" fill="url(#bg)"/><rect width="1200" height="440" rx="22" fill="url(#grid)"/><g font-family="Arial,Helvetica,sans-serif">
+<path d="M0 0H1200" stroke="#ff683e" stroke-width="9"/>
+<text x="48" y="53" fill="#ff825e" font-size="15" font-weight="700">ZF  /  ENGINEERING FLIGHT DECK</text>
+<text x="48" y="133" fill="#f4f5fa" font-size="64" font-weight="800">ZARRAF ALAM</text>
+<text x="48" y="200" fill="#f4f5fa" font-size="64" font-weight="800">FAHMID</text>
+<text x="51" y="249" fill="#92a8c4" font-size="16" font-weight="700">COMPUTER ENGINEERING  /  KETTERING UNIVERSITY</text>
+<text x="51" y="289" fill="#d5e2f6" font-size="24" font-weight="400">From circuit traces to closed-loop control.</text>
+<text x="51" y="386" fill="#6be8e2" font-size="14" font-weight="700">EMBEDDED SYSTEMS     •     PCB DESIGN     •     AUTOMOTIVE ELECTRONICS</text>
+<g transform="translate(920 192)">
+<circle r="139" fill="#101829" stroke="#31425f" stroke-width="2"/>
+<circle r="125" fill="none" stroke="#ff683e" stroke-width="4" stroke-dasharray="250 535" transform="rotate(-90)"><animateTransform attributeName="transform" type="rotate" from="-90" to="270" dur="18s" repeatCount="indefinite"/></circle>
+<circle r="100" fill="none" stroke="#6be8e2" stroke-width="2" stroke-dasharray="5 13"/>
+<g transform="rotate(-25)"><animateTransform attributeName="transform" type="rotate" values="-25;25;-25" dur="8s" repeatCount="indefinite"/>
+<rect x="-48" y="-56" width="96" height="112" rx="12" fill="#1d3d45" stroke="#6be8e2" stroke-width="2"/>
+<path d="M-66 -40h18M48 -40h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 -24h18M48 -24h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 -8h18M48 -8h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 8h18M48 8h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 24h18M48 24h18" stroke="#a9c1ce" stroke-width="5"/><path d="M-66 40h18M48 40h18" stroke="#a9c1ce" stroke-width="5"/>
+<rect x="-29" y="-28" width="58" height="56" rx="5" fill="#0c1526" stroke="#ff825e"/>
+<text x="-21" y="5" fill="#ff825e" font-size="20" font-weight="700">AVR</text>
+<circle cx="31" cy="-42" r="4" fill="#6be8e2"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle></g>
+</g>
+<text x="794" y="367" fill="#6be8e2" font-size="16" font-weight="700">SENSE  →  COMPUTE  →  ACT</text>
+<path d="M49 325H650" stroke="#2e3b53"/><path d="M49 325H180" stroke="#ff683e" stroke-width="3"><animate attributeName="d" values="M49 325H180;M510 325H650;M49 325H180" dur="5s" repeatCount="indefinite"/></path></g></svg>
